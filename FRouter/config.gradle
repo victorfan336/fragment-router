@@ -1,0 +1,22 @@
+ext {
+    android = [
+            compileSdkVersion: 25,
+            buildToolsVersion: '25.0.2',
+            minSdkVersion    : 14,
+            targetSdkVersion : 25,
+            versionCode      : 1,
+            versionName      : "1.0"
+    ]
+
+    dependencies = [
+            supportV7: 'com.android.support:appcompat-v7:25.3.0',
+            supportV4: 'com.android.support:support-v4:25.3.0',
+            andfix: 'com.alipay.euler:andfix:0.5.0@aar',
+            fresco: 'com.facebook.fresco:fresco:0.12.0',
+            design: 'com.android.support:design:25.3.0',
+            fragmentargs: 'com.hannesdorfmann.fragmentargs:annotation:3.0.2',
+            fragmentargs_processor: 'com.hannesdorfmann.fragmentargs:processor:3.0.2',
+            bugly: 'com.tencent.bugly:crashreport:latest.release',
+            bugly_native: 'com.tencent.bugly:nativecrashreport:latest.release'
+    ]
+}
