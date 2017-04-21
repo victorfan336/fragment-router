@@ -19,9 +19,14 @@ public class TestFragment extends Fragment {
 moduleName is your module name, you may use this annotation in different module.  
 you must write all you module name in FragmentBuildInfo class !
 
-value is the unique identification !
+value is the unique identification !  
 
- 2.use like this:  
+ 2.initialization  
+   Initialization fragmentRouter in your main activity like this:  
+   FragmentRouter.init(R.id.main_content_view);  
+   R.id.main_content_view is the FrameLayout's id from xml.  
+   
+ 3.use like this:  
  
  public void onClick() {
         new FragmentRouter.FRouterBuilder()
