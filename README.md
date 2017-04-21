@@ -21,19 +21,16 @@ you must write all you module name in FragmentBuildInfo class !
 
 value is the unique identification !  
 
- 2.initialization  
- 
-   Initialization fragmentRouter in your main activity like this:  
-   
-   FragmentRouter.init(R.id.main_content_view);  
-   
-   R.id.main_content_view is the FrameLayout's id from xml.  
+ 2.initialization<br/>  
+   Initialization fragmentRouter in your main activity like this:<br/>   
+   FragmentRouter.init(R.id.main_content_view);<br/> 
+   R.id.main_content_view is the FrameLayout's id from xml.  <br/> 
    
  3.use like this:  
  
  public void onClick() {
         new FragmentRouter.FRouterBuilder()<br/> 
-                .tag("Test")<br/> 
-                .build()<br/>
-                .go(getActivity());<br/>
+                 .tag("Test")<br/> 
+                 .build()<br/>
+                 .go(getActivity());<br/>
     }
